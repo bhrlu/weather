@@ -1,0 +1,166 @@
+.flex-container {
+  display: flex;
+}
+.align-items-flex-end {
+  align-items: flex-end;
+}
+.flex-content-justify-center {
+  justify-content: center;
+}
+.flex-content-justify-space-between {
+  justify-content: space-between;
+}
+.flex-content-justify-space-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+}
+.flex-direction {
+  flex-direction: row;
+}
+.flex-direction-column{
+  flex-direction: column;
+}
+.header {
+  background: #165e54;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 550;
+}
+.first-row {
+  padding: 16px;
+  padding-bottom: 3px;
+}
+.second-row {
+  padding-top: 10px;
+  text-align: center;
+}
+.chats img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.chats {
+  padding: 8px;
+  position: relative;
+}
+.chats:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  border: 0.3px solid #cccccc40;
+  bottom: 0;
+  left: 20%;
+}
+.chats h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.text-center {
+  text-align: center;
+}
+.chats .middle {
+  width: 45%;
+}
+.contact-select:hover {
+  background: #f0f2f5;
+  cursor: pointer;
+}
+
+.user-bar {
+  height: 55px;
+  background: #005e54;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 24px;
+}
+.avatar {
+  margin: 0 0 0 5px;
+  width: 36px;
+  height: 36px;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 100%;
+}
+.name {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin: 0 0 0 8px;
+  width: 110px;
+}
+.conversation {
+  background: #efeae2;
+  padding: 5px;
+}
+.message {
+  font-size: 15px;
+  padding: 8px;
+  margin: 8px 15px;
+}
+.message.sent {
+  background: #e1ffc7;
+  border-radius: 5px 0px 5px 5px;
+}
+.conversation-compose {
+  height: 40px;
+  width: 100%;
+  margin: 3px 5px;
+}
+.input-msg {
+  border: none;
+  font-size: 14px;
+  height: 40px;
+  outline: none;
+  min-width: 50px;
+  border-radius: 30px 0 0 30px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #fff;
+}
+.photo {
+  border-radius: 0 30px 30px 0;
+  text-align: center;
+  width: auto;
+  height: 40px;
+  background: #fff;
+  padding-right: 6px;
+}
+
+.photo img {
+  font-size: 24px;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.send {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;
+}
+.back {
+  cursor: pointer;
+}
+
+.send .circle {
+  background: #008a7c;
+  border-radius: 50%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
