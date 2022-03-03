@@ -1,5 +1,11 @@
 # weather
 In the project directory, you can run:
+ 
+ ​##​ ​System Requirements 
+  
+ ​-​ [​git​][git] v2.31 or greater 
+ ​-​ [​NodeJS​][node] ​`16 || 17` 
+ ​-​ [​npm​][npm] v8 or greater
 
 ### `npm install`
 
