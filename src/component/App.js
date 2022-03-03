@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Contacts />} />
+        <Route path="/weather" element={<Contacts />} />
         <Route path="contact/:name" element={<Chat />} />
       </Routes>
     </BrowserRouter>
